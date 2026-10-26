@@ -19,6 +19,14 @@
 
 或直接跑：`.\scripts\check-env.ps1`（結束代碼 0 = 核心工具就緒；R2 未開通不算失敗）。不要為了執行腳本而改寫或繞過使用者的 ExecutionPolicy。
 
+### 官方插件
+
+若 agent 支援 Agent Skills 標準，建議使用者安裝 Cloudflare 官方插件 [cloudflare/skills](https://github.com/cloudflare/skills)（Skills + MCP），安裝方式見 [docs/agent-setup.md](docs/agent-setup.md)。
+
+- `/plugin ...` 這類 slash command 要**請使用者自己輸入**。
+- 官方插件與 claude.ai 的 Cloudflare connector 會註冊重複工具，**建議擇一**；不要在使用者不知情下同時保留兩份授權。
+- 官方 Skills 與本檔衝突時，**以本檔（使用者的規則）為準**。
+
 ## 2. 可以自己做的
 
 - 安裝 wrangler：`npm install -g wrangler`

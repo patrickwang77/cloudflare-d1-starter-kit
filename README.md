@@ -15,6 +15,7 @@
 |---|---|
 | [docs/pricing.md](docs/pricing.md) | 適用 / 不適用情境、免費與付費額度、用量估算方法 |
 | [docs/setup.md](docs/setup.md) | 申請帳號、安裝元件、**wrangler OAuth 登入是什麼**、Claude Code MCP 連線 |
+| [docs/agent-setup.md](docs/agent-setup.md) | **Cloudflare 官方插件 cloudflare/skills**、各 agent（Claude Code / Codex / Cursor…）安裝方式、與 connector 擇一 |
 | [docs/r2.md](docs/r2.md) | R2 開通（需綁卡）、不綁卡的替代方案、防止意外扣款 |
 | [docs/architecture.md](docs/architecture.md) | 在免費方案下的設計原則：API、MCP、Workers AI、登入控管 |
 | [scripts/check-env.ps1](scripts/check-env.ps1) | 一鍵檢查本機環境與登入狀態（唯讀，不改任何設定） |

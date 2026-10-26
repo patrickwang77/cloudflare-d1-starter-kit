@@ -132,6 +132,8 @@ API Token 權限要**最小化**（例如只給某一個 D1 的 Edit），並設
 MCP 能做：D1 / KV / R2 / Hyperdrive 的查詢與建立、查看 Worker、搜尋 Cloudflare 文件。
 MCP **不能**：部署程式碼（部署仍靠 wrangler）。
 
+> 本機開發建議改裝 Cloudflare **官方插件** `cloudflare/skills`（Skills + MCP，Claude Code / Codex / Cursor 等通用），並與這個 connector 擇一。見 [agent-setup.md](agent-setup.md)。
+
 ## 5. 驗證全部完成
 
 ```powershell
