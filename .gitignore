@@ -1,0 +1,20 @@
+# Cloudflare / wrangler local state and secrets
+.wrangler/
+.dev.vars
+.dev.vars.*
+.env
+.env.*
+*.toml.bak
+
+# Node
+node_modules/
+
+# Backups / exports may contain real data
+*.sql
+backup/
+
+# OS / editor
+Thumbs.db
+.DS_Store
+.vscode/
+.claude/settings.local.json
